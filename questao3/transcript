@@ -1,0 +1,25 @@
+vsim -gui work.circuito
+# vsim -gui work.circuito 
+# Start time: 13:48:40 on Jul 29,2024
+# Loading sv_std.std
+# Loading work.circuito
+# ERROR ApplyCurrentColumnConfiguration config_name Default not found
+# Default Column Data
+# 	name AllColumns - name du duType category accTyp pdName covOpt total cvgPnt dtveHit dtveMis dtvePnt dtveGrph asrtCnt asrtHit asrtMis asrtPnt asrtGrph stmt hits misses stmtperc stmtgraph branches bhits bmiss bperc bgraph conds condhits condmiss condperc condgraph exprs exprhits exprmiss exprperc exprgraph toggles toghits togmiss togperc toggraph states statehits statemiss stateperc stategraph transitions transhits transmiss transperc transgraph fecconds feccondhits feccondmiss feccondperc feccondgraph fecexprs fecexprhits fecexprmiss fecexprperc fecexprgraph
+# Column Data
+# 	name AllColumns - name du duType category accTyp pdName covOpt total cvgPnt dtveHit dtveMis dtvePnt dtveGrph asrtCnt asrtHit asrtMis asrtPnt asrtGrph stmt hits misses stmtperc stmtgraph branches bhits bmiss bperc bgraph conds condhits condmiss condperc condgraph exprs exprhits exprmiss exprperc exprgraph toggles toghits togmiss togperc toggraph states statehits statemiss stateperc stategraph transitions transhits transmiss transperc transgraph fecconds feccondhits feccondmiss feccondperc feccondgraph fecexprs fecexprhits fecexprmiss fecexprperc fecexprgraph
+# **** Error: LoadCompleteQ cmd: Transcript::ViewSimPanes sim
+# ****        can't set "CurrentColConfigName": can't read "tmp_array(Default)": no such element in array
+# can't set "CurrentColConfigName": can't read "tmp_array(Default)": no such element in array
+#     while executing
+# "Structure::CreateWindow $dataset_name"
+#     (procedure "Transcript::ViewSimPanes" line 28)
+#     invoked from within
+# "Transcript::ViewSimPanes sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# Load canceled
+# End time: 13:50:32 on Jul 29,2024, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 1
+# Closing project C:/Users/Karllos/Desktop/Verilog/questao3/circuito.mpf

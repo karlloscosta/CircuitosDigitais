@@ -8,4 +8,3 @@ module circuito (
     assign s1 = ((a & c) & (~d))|((~a)&(~b))|((~b)&(~d));
 endmodule
 
-// F(ABCD)=	A'B' +	B'D' +	ACD'

@@ -5,7 +5,8 @@ LISTA DE PROJETO 01
 ## COMPONENTES
 
 [Karllos Eduardo Lima Costa](https://github.com/karlloscosta)
-[PaulO Henrique Souza Lima](https://github.com/paulotxz)
+
+[Paulo Henrique Souza Lima](https://github.com/paulotxz)
 
 ## PROBLEMAS
 <p align="center">

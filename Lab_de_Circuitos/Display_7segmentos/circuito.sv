@@ -8,5 +8,5 @@ module 7segmentos (
   assign s3 = (~a)&(~b)&(~c) | (~b)&c&d | b&(~c)&d | b&c&(~d) | a&(~c);
   assign s4 = a&b&d | (~b)&(~d) | c&(~d) | a&c;
   assign s5 = (~b)&(~c)&(~d) | (~a)&b&(~c) | b&c&(~d) | a&(~b) | a&c;
-  assign s6 = (~a)&b&(~c) | (~b)&c | c&(~d) | a&(~b) | a&d; 
+  assign s6 = (~a)&b&(~c) | (~b)&c | c&(~d) | a&(~b) | a&d;
 endmodule

@@ -1,0 +1,21 @@
+module mux4x1(
+  input logic i0,
+  input logic i1,
+  input logic i2,
+  input logic i3,
+  output logic s0,
+  output logic s1,
+  output logic f
+);
+assign f = i0 & ~s1 & ~s0 | i1 & s1 & ~s0 |i2 & s1 & ~s0 |i3 & s1 & s0;
+
+mux4x1 mux4x1(
+  .i0(i0),
+  .i1(i1),
+  .i2(i2),
+  .i3(i3),
+  .s0(s0),
+  .s1(s1),
+  .f(f)
+);
+endmodule
